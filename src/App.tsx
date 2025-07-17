@@ -1,12 +1,13 @@
-import './App.css'
-import Login from './pages/Auth/Login/Login'
-function App() {
+import "./App.css";
 
+import AppRouter from "./routes/AppRouter";
+
+function App() {
   return (
     <>
-      <Login/>
+      <AppRouter/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
